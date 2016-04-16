@@ -1,0 +1,45 @@
+DontPanic! (Oric Atmos or Telestrat)
+
+** LOADING GAME **
+Boot Machine or Emulator (Disc Drive not required)
+Type CLOAD"DP" and press Return.
+The game will autorun.
+
+** BACKGROUND **
+Way back in 1992, i wrote a BASIC 5K version of this Columns Style game.
+It took one weekend to write, but alot of people seemed to enjoyed
+it on the Oric.
+
+** GAME **
+The Game is based on 7 different falling shapes that must be alligned
+in sets of three either horizontally, vertically or diagonally to clear
+them.
+
+Each Shape may either roll or stay once they land, these properties are
+shown in the lists of shapes either side of the playing arena.
+
+As the shape falls from the top of screen, they can be moved left or
+right with the shift keys.
+Hitting either wall will increase the shapes rate of descent.
+
+However by keeping it "oscillating" without hitting the sides,
+the object will not descend and will hover at it's current height!
+
+The game finishes when the pile reaches eight high!
+
+** GAME PROGRESSION **
+As the game progresses, the speed of Shapes descent increases
+
+** CONTROLS **
+Shifts, Function or Control key to start.
+Left Shift  - Move shape left
+Right Shift - Move Shape Right
+
+** SCORES **
+The score is displayed in the top right, and reflect when a group
+of 3 shapes have been matched. Different credits are given for each
+shape.
+
+** CREDITS **
+Twilighte - Code and Content
+Dbug      - Inspiration and general attacks of criticism (Thanx mate)

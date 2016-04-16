@@ -1,0 +1,44 @@
+Game Details
+
+setup screen as score on right, arena on left
+
+	Rolls	3 Action	Score
+Boulder	Yes	Clear		+50
+Sphere	Yes	Clear		+50
+Spark	Yes	Clear Line	+250
+Gulp	No	Clear		/2
+Star	No	Clears All Gulp	+50
+Diamond	No	Clear		+500
+Square	No	Clear		+25
+
+
+Checking for matches
+
+Screen: 40*28
+Arena : 20*26
+Object map ==
+10*13 (arena), however top two rows not allowed (Game Over)
+But +2 for l/b borders == 12*13 (156)
+
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooooo
+xxoooooooeoo
+xxxxxxxxxxxx
+xxxxxxxxxxxx
+
+Borders (x/e/o) & Empties  == 32
+Objects (Sprites/Shapes)   == 36,40,44,48,52,56,60
+
+
+Four configurations possible
+000 0    0    0
+     0   0   0
+      0  0  0
